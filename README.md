@@ -19,14 +19,6 @@ Este proyecto es una solución web adaptativa para la **Facultad de Ciencias Soc
 - Contraste y tipografía optimizados para lectura
 - Separación de lógica HTML/CSS/JS
 
-## 📷 Capturas
-
-<p align="center">
-  <img src="img/primeros.png" width="200" />
-  <img src="img/superiores.png" width="200" />
-  <img src="img/egresado.png" width="200" />
-</p>
-
 ## 🧠 Autor
 
 - **Gabriel (Gabsl99)**
