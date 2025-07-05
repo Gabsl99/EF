@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --text-color: #333;
+  --bg-light: #f8f9fa;
+}
+
+/* Reset básico */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Enlace de accesibilidad */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 8px;
+  background: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  z-index: 1000;
+}
+.skip-link:focus {
+  top: 8px;
+}
+
+/* Hero principal */
+.hero {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: 4rem 1rem;
+}
+.hero h1 {
+  font-size: 2rem;
+}
+.hero .btn {
+  background-color: var(--accent-color);
+  border: none;
+}
+.hero .btn:hover {
+  background-color: #c0392b;
+}
+
+/* Formulario */
+.error-message {
+  color: var(--accent-color);
+  font-size: 0.9rem;
+  display: none;
+}
+.success-message {
+  color: #27ae60;
+  font-size: 0.95rem;
+  display: none;
+}
+
+/* Footer */
+footer {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* Accesibilidad y responsividad extra */
+@media (prefers-contrast: more) {
+  * {
+    outline: 2px solid var(--accent-color);
+  }
+}
+
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+}
